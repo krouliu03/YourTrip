@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Big Almaty Lake",
+        "image": "https://almaty.tv/news_photo/1597667885_news_b.jpeg",
+        "location": "Almaty, KZ"
+    },
+    {
+        "name": "Charyn canyon",
+        "image": "https://www.journalofnomads.com/wp-content/uploads/2021/03/Charyn-Canyon-Kazakhstan.jpg",
+        "location": "Shan Mountains, KZ"
+    },
+    {
+        "name": "Alakol Lake",
+        "image": "https://kazkurort.kz/upload/iblock/ba6/%D0%BF%D0%BE%D0%B4%D1%80.jpg",
+        "location": "KZ"
+    },
+    {
+        "name": "Ustyurt Plateau",
+        "image": "https://www.otrar.kz/Portals/0/PackFlashItemImages/WebReady/_mg_3707.jpg",
+        "location": "KZ"
+    },
+    {
+        "name": "Keruen Sarai",
+        "image": "https://spk-turkistan.kz/images/news/021921.jpg",
+        "location": "Turkestan, KZ"
+    },
+    {
+        "name": "Baydibek Ata",
+        "image": "https://sxodim.com/uploads/shymkent/2017/06/optimized/0bfc0ce99892772fc285e10ee3943d9a_XL_1522x570-q-85.jpg",
+        "location": "Shymkent, KZ"
+    },
+    {
+        "name": "Medeu",
+        "image": "https://newtimes.kz/cache/imagine/main_page_full/uploads/news/2020/02/05/5e3a953233903360392027.jpg",
+        "location": "Almaty, KZ"
+    },
+    {
+        "name": "Shym Bulak",
+        "image": "https://astanatimes.com/wp-content/uploads/2020/01/20190314203151.jpg",
+        "location": "Almaty, KZ"
+    },
+    {
+        "name": "Botanic sad",
+        "image": "https://img2.goodfon.ru/wallpaper/nbig/2/3b/singapur-botanic-gardens-sad-4194.jpg",
+        "location": "Nur-Sultan, KZ"
+    },
+    {
+        "name": "Kapchagai",
+        "image": "https://realkz.com/images_resize/main/58781.jpg",
+        "location": "Almaty, KZ"
+    },
+    {
+        "name": "Kaspi",
+        "image": "https://massaget.kz/userdata/blog/blog_5081/photo.jpg",
+        "location": "KZ"
+    },
+    {
+        "name": "Mashat",
+        "image": "https://www.plantarium.ru/dat/places/2/238/8238_89baa6dd.jpg",
+        "location": "Turkestan, KZ"
+    },
+    {
+        "name": "Burabay",
+        "image": "https://www.archive.inform.kz/fotoarticles/20180513151027.jpg",
+        "location": "KZ"
+    }
+]

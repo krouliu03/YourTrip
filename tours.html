@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" id="fontawesome-css">
+</head>
+<body id="body1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <div class="container">
+        <img src="./img/1logo.png" alt="logo" class="mr-2" height="30">
+        <a class="navbar-brand" href="#">YourTrip</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">   
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tours.html">Ready tours</a>
+                        <a class="dropdown-item" href="#">Create own tour</a>
+                    </div>
+                </li>
+            </ul>
+    
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    
+    <div class="container" id="search-box">
+        <h2 id="centered">Save time and find ready-made tours!</h2>
+        <div>
+            <div class="container h-100">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 40px"> 
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="container" id="r-tours">
+                    <img src="./img/1.jpg" alt="img1" id="image" class="rounded">
+                    <h3>Big Almaty Lake</h3>
+                    <hr>
+                    <p>The Big Almaty Lake is a unique body of water that has 
+                        found its place in the spurs of the Trans-Ili Alatau.</p>
+                    <p><button type="button" class="btn btn-primary">See more</button></p>
+                    <i class="fas fa-map-marked" id="map-city">Almaty</i>
+                </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container" id="r-tours">
+                        <img src="./img/charyn1.jpg" alt="img1" id="image" class="rounded">
+                        <h3>Charyn сanyon</h3>
+                        <hr>
+                        <p>A natural wonder in the Tien Shan Mountains,
+                             which took millennia to form.</p>
+                        <p><button type="button" class="btn btn-primary">See more</button></p>
+                            <i class="fas fa-map-marked" id="map-city">Almaty</i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div style="padding-top: 20px">
+                <div class="row">
+                <div class="col-sm-6">
+                <div class="container" id="r-tours">
+                    <img src="./img/alakol.jpg" alt="img1" id="image" class="rounded">
+                    <h3>Alakol Lake</h3>
+                    <hr>
+                    <p>Alakol is a large lake in the Republic of Kazakhstan, 
+                        although it is difficult to call it a lake, it is so large.</p>
+                    <p><button type="button" class="btn btn-primary">See more</button></p>
+                    <i class="fas fa-map-marked" id="map-city">East Kazakhstan</i>
+                    
+                </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="container" id="r-tours">
+                        <img src="./img/plato2.jpg" alt="img1" id="image" class="rounded">
+                        <h3>Ustyurt Plateau</h3>
+                        <hr>
+                        <p>The Ustyurt is a transboundary 
+                            clay desert shared by Turkmenistan, Uzbekistan and Kazakhstan. </p>
+                            <p><button type="button" class="btn btn-primary">See more</button></p>
+                            <i class="fas fa-map-marked" id="map-city">Mangystau</i>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+    </div>
+
+    <footer>
+        <div class="container" id="centered">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+        
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div id="centered">
+                <p>Copyright © 2021 All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

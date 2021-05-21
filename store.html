@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create your | Trip</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" id="fontawesome-css">
+    <style>
+        #result {
+            position: absolute;
+            width: 100%;
+            max-width: 870px;
+            cursor: pointer;
+            overflow-y: auto;
+            max-height: 400px;
+            box-sizing: border-box;
+            z-index: 1001;
+        }
+
+        .link-class:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+    <body id="body1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <div class="container">
+                <img src="./img/1logo.png" alt="logo" class="mr-2" height="30">
+                <a class="navbar-brand" href="#">YourTrip</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="tours.html">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Ready tours</a>
+                                <a class="dropdown-item" href="store.html">Create own tour</a>
+                                <a class="dropdown-item" href="merch.html">Merch</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container content-section">
+            <h2 class="section-header">Places</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Charyn canion</span>
+                    <img class="shop-item-image" src="Images/Album 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$120$</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO TRIP</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Keruen Sarai</span>
+                    <img class="shop-item-image" src="Images/Album 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">140$</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO TRIP</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Medeu</span>
+                    <img class="shop-item-image" src="Images/Album 3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">90$</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO TRIP</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Kapchagai</span>
+                    <img class="shop-item-image" src="Images/Album 4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">190$</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO TRIP</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Place</span>
+                <span class="cart-price cart-header cart-column">Price</span>
+                <span class="cart-quantity cart-header cart-column">Quantity</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0��</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" style = "position:relative; left:980px; top:-40px;width:100px; " type="button">PURCHASE</button>
+        </section>
+
+            <footer>
+        <div class="container" id="centered">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+        
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div id="centered">
+                <p>Copyright © 2021 All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
